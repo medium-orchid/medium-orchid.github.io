@@ -1,0 +1,44 @@
+* {
+  font-family: sans-serif;
+}
+.targeted, .not-targeted {
+  font-weight: bold;
+  color: MediumOrchid;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  height: 100%;
+}
+.entry {
+  margin-top: -3px;
+  margin-bottom: 0px;
+  border-style: solid;
+  border-color: MediumOrchid;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+.item {
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 85%;
+  border: 0;
+}
+.home {
+  color: MediumOrchid;
+  font-size: 100%;
+  line-height: 25%;
+}
+button {
+  border-radius: 0;
+  color: MediumOrchid;
+  font-weight: bold;
+  border: solid MediumOrchid;
+}

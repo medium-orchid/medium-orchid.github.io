@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" viewBox="-3.3,-6.4,5.7,6.4">
+  <style>
+    .stems {
+      stroke: ForestGreen;
+      stroke-width: 0.3;
+    }
+  </style>
+  <defs>
+    <g id="petal">
+      <path fill="White" stroke="MediumOrchid" stroke-width="0.05" d="
+        M 0,0
+        Q 0.7,0 0.8090169944,0.5877852523
+        Q 0.2163118961,0.6657395614 0,0
+      " />
+      <g stroke-width="0.02" stroke="BurlyWood" stroke-linecap="round">
+        <line x1="0.0" y1="0.0" x2="0.4381533400219318" y2="0.24087683705085766" />
+        <line x1="0.0" y1="0.0" x2="0.3644843137107058" y2="0.3422735529643443" />
+        <line x1="0.0" y1="0.0" x2="0.4854101966249684" y2="0.3526711513754839" />
+      </g>
+    </g>
+    <g id="flower">
+      <use href="#petal" />
+      <use href="#petal" transform=" rotate(72)" />
+      <use href="#petal" transform=" rotate(144)" />
+      <use href="#petal" transform=" rotate(216)" />
+      <use href="#petal" transform=" rotate(288)" />
+      <circle r="0.125" fill="BurlyWood" />
+    </g>
+    <g id="plant0">
+      <line x1="0.0" y1="0.0" x2="0.0" y2="-4.0" class="stems" />
+      <g transform="translate(0,-4)rotate(-6.3)">
+        <line x1="0.0" y1="0.0" x2="0.0" y2="-1.8" class="stems" />
+        <g transform="translate(0,-1.8)">
+          <circle r="0.5" fill="MediumOrchid" />
+          <path fill="ForestGreen" stroke="ForestGreen" stroke-width="0.075" stroke-linecap="round" stroke-linejoin="round" d="
+            M -0.2938926261,0.4045084972
+            A 0.5 0.5 100 0 0 0.2938926261,0.4045084972
+            A 0.5 1 100 0 1 -0.2938926261,0.4045084972
+          " />
+        </g>
+      </g>
+      <g transform="translate(0,-4)rotate(-136.1)">
+        <path fill="ForestGreen" d="
+          M 0,0
+          A 0.6 0.6 180 0 0 0,-1.2
+          z
+        " />
+      </g>
+      <use href="#flower" transform="translate(0,-4)rotate(11.7)" />
+    </g>
+    <g id="plant1">
+      <use href="#plant0" transform="translate(0,-4)scale(0.5)rotate(-62)" />
+      <use href="#plant0" transform="translate(0,-4)scale(0.4)rotate(50)" />
+      <use href="#plant0" />
+    </g>
+    <g id="plant2">
+      <use href="#plant1" transform="translate(0,-4)scale(0.5)rotate(-62)" />
+      <use href="#plant1" transform="translate(0,-4)scale(0.4)rotate(50)" />
+      <use href="#plant0" />
+    </g>
+    <g id="plant3">
+      <use href="#plant2" transform="translate(0,-4)scale(0.5)rotate(-62)" />
+      <use href="#plant2" transform="translate(0,-4)scale(0.4)rotate(50)" />
+      <use href="#plant0" />
+    </g>
+    <g id="plant4">
+      <use href="#plant3" transform="translate(0,-4)scale(0.5)rotate(-62)" />
+      <use href="#plant3" transform="translate(0,-4)scale(0.4)rotate(50)" />
+      <use href="#plant0" />
+    </g>
+    <g id="plant5">
+      <use href="#plant4" transform="translate(0,-4)scale(0.5)rotate(-62)" />
+      <use href="#plant4" transform="translate(0,-4)scale(0.4)rotate(50)" />
+      <use href="#plant0" />
+    </g>
+  </defs>
+  <use href="#plant5" />
+</svg>
